@@ -14,3 +14,6 @@ colors.forEach(function(color) {
 	console.log(color);
 })
 
+// es6 helper with arrow
+console.log('es6 with arrow')
+colors.forEach(x => console.log(x))
