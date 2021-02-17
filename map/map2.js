@@ -3,7 +3,7 @@ const cars = [
 	{model: 'Camaro', price: '$$$'}
 ];
 
-let prices = cars.map(function(car) {
+const prices = cars.map(function(car) {
 	return car.price;
 });
 
